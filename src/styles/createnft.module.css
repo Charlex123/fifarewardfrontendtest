@@ -1,0 +1,122 @@
+.main {
+    position: relative;width: 100%;margin: 0 auto 0 auto;padding: 100px 0 50px 0;
+}
+.lighttheme {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+}
+.darktheme {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
+.darkmod {
+    border: 1px solid #f1f1f13c;border-radius: 0;background-color: #16131376;
+    color: var(--text-color-dark);
+}
+.lightmod {
+    border: 1px solid #96939386;background-color: #252525c2;border-radius: 0;
+    color: var(--text-color-dark);
+}
+.main .main_cc {
+    display: flex;width: 96%;justify-content: space-between;flex-direction: row;margin: 15px auto;align-items: center;height: 700px;
+    position: relative;
+}
+.main .addtraits {
+    position: fixed;margin: auto; background-color: #373434;width: 40%;
+    border-radius: 16px;z-index: 999;text-align: center;left: 0;right: 0;top: 0;bottom: 0;
+    color: #f1f1f1;padding: 10px 10px 10px 10px;background-color: #000003e2;border: 1px solid #3f3f3f7f;
+}
+.main .addtraits .addtraits_h {
+    display: flex;flex-direction: row;justify-content: space-between;margin: 15px 0 35px 0;
+    border-bottom: 1px solid #3f3f3f7f;
+}
+.main .addtraits .addtraits_h h1 {
+    font-weight: 600;
+}
+.main .addtraits .addtraits_c_ina {
+    display: flex;flex-direction: row;justify-content: space-between;margin: 15px 0;
+}
+.main .addtraits .addtraits_c_ina .addtc {
+    width: 45%;text-align: left;
+}
+.main .addtraits .addtraits_c_ina label {
+    text-align: left;width: 100%;font-size: 14px;font-weight: 600;color: #e2d7d7;
+}
+.main .addtraits .addtraits_c_ina input {
+    width: 100%;background-color: #070707cf !;height: 35px;border-radius: 4px;padding-left: 5px;
+    font-size: 14px;color: #e2d7d7 !important;
+}
+.main .addtraits .addtraits_c_in button.addnewtrait {
+    font-size: 14px;font-weight: 600;text-decoration: underline;color: #e2d7d7;
+}
+.main .addtraits .addtraits_c_in button.addnewtrait_ {
+        background-color: #e3a204;width: 100%;padding: 4px 6px;border-radius: 8px;margin: 35px auto;
+        text-align: center;color: #454545;font-weight: 800;
+}
+.main .main_c h1 {
+    font-size: 35px;font-family: "RussoOne Regular",sans-serif;margin: 25px auto;text-align: center;
+    font-weight: 700;
+}
+.main .main_c .create_nft {
+    font-weight: 900;font-size: 14px;
+}
+.main .main_cc .dragdrop {
+    width: 40%;border-radius: 16px;margin-top: 0;height: 100%;
+    border: 1px solid #3f3f3f;
+}
+.main .main_cc .nft_art_desc {
+    width: 58%;margin-top: 0;padding: 15px;border-radius: 16px;
+    margin-right: 0;height: 100%;border: 1px solid #3f3f3f;
+}
+.main .main_cc .nft_art_desc .form_g {
+    width: 100%;margin: 15px 0 15px 0;text-align: left;
+}
+.main .main_cc .nft_art_desc .form_g label {
+    font-size: 14px;font-weight: 600;
+}
+.main .main_cc .nft_art_desc .form_g .input_ {
+    width: 100%;background-color: #0b0b0b4b;height: 40px;border-radius: 8px;padding-left: 4px;
+    font-size: 14px;color: #f1f1f1;border: 1px solid #3f3f3f;
+}
+/* .main .main_cc .nft_art_desc .form_g .input_::placeholder {
+    
+} */
+.main .main_cc .nft_art_desc .form_g .textarea_ {
+    width: 100%;background-color: #0b0b0b4b;border-radius: 8px;
+    min-height: 180px;font-size: 14px;color: #f1f1f1;border: 1px solid #3f3f3f;
+}
+.main .main_cc .nft_art_desc .form_g .textarea_::placeholder {
+    padding-left: 4px;
+}
+.main .main_cc .nft_art_desc .form_g button {
+    width: 100%;background-color: #e3a204;width: 100%;text-align: center;margin: auto;
+    padding: 2px 18px 2px 18px;border-radius: 16px;height: 40px;color: #373434;
+}
+.main .main_cc .nft_art_desc .form_g p {
+    margin: 10px 0;font-size: 14px;
+}
+.main .main_cc .nft_art_desc .form_g button.add_traits {
+    background-color: #ffffff;width: fit-content;color: #454545;
+    padding: 2px 8px 2px 8px;height: 30px;margin-bottom: 20px;
+}
+.main .main_cc .nft_art_desc .form_g .label {
+    text-align: left;font-size: 13px;margin: 0;
+}
+
+@media (max-width: 991px) {
+    .main .main_c h1 {
+        font-size: 25px;
+    }
+    .addtraits {
+        width: 96%;
+    }
+    .main .main_cc {
+        display: block;width: 96%;margin: 10px auto 30px auto;align-items: center;height: 100%;
+    }
+    .main .main_cc .dragdrop {
+        width: 100%;margin: 10px auto 50px auto;padding: 150px 0 150px 0;
+    }
+    .main .main_cc .nft_art_desc {
+        width: 100%;
+    }
+}

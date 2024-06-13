@@ -1,0 +1,213 @@
+.main {
+    width: 100%;padding: 0;margin: 0;text-align: center;
+    color: #151414;font-size: 14px;background-color: transparent;position: relative;
+}
+.main .notfound_p {
+    width: 100%;margin: auto;text-align: center;
+}
+.main .notfound {
+    text-align: center;font-family: "RussoOne Regular",sans-serif;margin: 20px auto;
+}
+.main .betwrap .betwrapin .league_wrap {
+    margin: 20px 0 10px 0;background-color: #ffffff;border: 2px solid #f1f1f1;
+}
+.main .betwrap .betwrapin .league_wrap .tgle {
+    background-color: #f1f1f1;width: 100%;position: relative;
+    border: none;cursor: pointer;width: 100%;padding: 1px;color: #151414;
+}
+.main .betwrap .betwrapin .league_wrap .tgle h3 {
+    color: #151414;font-size: 14px;
+}
+.main .betwrap .betwrapin .league_wrap .tgle .drpdwn {
+    position: absolute;top: 4px;right: 25px;cursor: pointer;
+}
+.main .betwrap .betwrapin .league_wrap .tgle .closeicon {
+    position: absolute;top: 4px;right: 5px;cursor: pointer;color: #151414;
+}
+.main .betwrap .betwrapin .league_wrap .league_wrap_in {
+    background-color: #ffffff;border-bottom: 2px solid #e2d7d7;
+}
+.main .betwrap .betwrapin .league_wrap .league_wrap_in a {
+    color: #151414;text-decoration: none;
+}
+.main .betwrap .betwrapin .league_wrap .league_wrap_in a .lg {
+    height: 25px;max-height: 25px;
+}
+.main .betwrap .betwrapin .league_wrap .league_wrap_in.display {
+    display: block;cursor: pointer;
+}
+.main .paginate_btns {
+    margin: 15px 0;padding: 15px 15px 15px 15px;width: 100%;
+}
+.main .paginate_btns button {
+    margin: 4px 8px 4px 8px;background-color: none;padding: 0 3px 0 3px;border-radius: 4px;
+    border: 1px solid #929292;font-size: 12px;
+    font-weight: 600;
+}
+.main .paginate_btns button.number {
+    margin: 4px 2px 4px 2px;border-radius: 50%;font-weight: 500;font-size: 13px;padding: 0 3px;
+}
+.main .betwrap .betwrapin .league_wrap h3 {
+    margin: 5px 0;font-size: 16px;font-weight: 800;
+}
+.main .betwrap .betwrapin .league_wrap .fixt {
+    border-bottom: 2px solid #f1f1f1;margin: 0 0 5px 0;border-radius: 4px;
+    background-color: #ffffff;cursor: pointer;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_d_o {
+    display: flex;justify-content: space-between;padding: 3px;font-size: 13px;font-weight: 600;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_d_o span {
+    font-size: 11px;margin: auto 5px;background-color: #4f4848bd;
+    padding: 1px 3px;border-radius: 2px;color: #e2d7d7;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_d_o .fixt_o {
+    display: flex;justify-content: space-between;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_d_o .dd {
+    display: flex;justify-content: space-between;font-family: "RussoOne Regular",sans-serif;font-size: 14px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_d_o .dd .fid { 
+    font-size: 11px;margin: 2px auto auto 5px;color: #4f4848bd;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_tm {
+    margin: auto;background-color: #eceaeab1;padding: 2px 0;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams {
+    display: flex;justify-content: center;padding: 0 6px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams .lg {
+    height: 30px !important;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams div {
+    margin: 0 20px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams div.vs {
+    font-size: 12px;font-weight: 900;background-color: #e2d7d7;border-radius: 8px;padding: 2px 8px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet {
+    margin: 6px auto;position: relative;text-align: center;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .opb_btns_div {
+    position: absolute;background-color: #000000ca;left: 50%;transform: translate(-50%,50%);
+    padding: 12px 12px 12px 12px;top: -105px;border-radius: 4px;display: none;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .opb_btns {
+    display: flex;flex-direction: row;margin: 8px auto 8px auto;text-align: center;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .opb_btns_div .bt_close {
+    position: absolute;right: 4px;top: 0;color: #9b9a9a;cursor: pointer;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .opb_btns .opb_open button {
+    background-color: #3aa33d;width: fit-content;padding: 2px 4px;margin-right: 5px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .opb_btns .opb_hiw button {
+    background-color: #e28305;width: fit-content;padding: 2px 4px;margin-left: 5px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet {
+    position: absolute;z-index: 999;background-color: #000000de;padding: 10px 24px 10px 24px;
+    border-radius: 4px;left: 0;right: 0;width: fit-content;margin: auto;top: -100px;display: none;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet .pbet_x {
+    color: #ffffff;position: absolute;right: 8px;top: 4px;cursor: pointer;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form {
+    width: 100%;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form h3 {
+    color: #ffffff;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form .form_g {
+    margin: 15px 0;width: 100%;text-align: left;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form .form_g ul li {
+    margin: 5px 0;width: 100%;text-align: left;color: #ffffff;font-size: 14px;
+    font-family: "RussoOne Regular";
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form .form_g ul li div {
+    display: flex;flex-direction: row;justify-content: space-between;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form .form_g label {
+    width: 100%;font-size: 14px;color: #ffffff;font-family: "RussoOne Regular",sans-serif;
+    text-align: left;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form .form_g input {
+    width: 100%;font-size: 14px;color: #ffffff;font-family: "RussoOne Regular",sans-serif;height: 30px;
+    border-radius: 4px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form .form_g select {
+    width: 100%;font-size: 14px;color: #212222;font-family: "PT Sans",sans-serif;height: 30px;
+    border-radius: 4px;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet .pbet form .form_g button {
+    background-color: #e28305;margin: 13px auto 3px auto;text-align: center;width: 100%;
+}
+.main .betwrap .betwrapin .league_wrap .fixt .openbet button {
+    background-color: #e28305;color: #ffffff;padding: 4px 48px 4px 48px;border-radius: 4px;border: none;
+    cursor: pointer;width: fit-content;
+}
+.main .main_in .openbets_list {
+    background-color: #e2d7d7;;width: 18%;margin: 0 2%;
+}
+.main .main_in .openbets_list .opb_h h3 {
+    font-family: "RussoOne Regular",sans-serif;font-size: 14px;font-weight: 800;background-color: #686867;color: #ffffff;
+    padding: 4px 0 4px 0;margin: 0 auto;
+}
+.main .main_in .openbets_list .opb_h ul {
+    width: 96%;background-color: #eceaeab1;border-radius: 4px;margin: 4px;padding: 2px 2px 2px 2px;
+}
+.main .main_in .openbets_list .opb_h ul li {
+    margin: 5px 5px 5px 5px;font-size: 12px;font-family: "PT Sans";
+}
+.main .main_in .openbets_list .opb_h ul li div {
+    display: flex;flex-direction: row;justify-content: space-between;
+}
+.main .main_in .openbets_list .opb_h ul li div div span.stat {
+    background-color: #3aa33d;padding: 2px 8px 2px 8px;border-radius: 4px;color: #ffffff;
+}
+.main .main_in .openbets_list .opb_h ul li div div.tms {
+    display: flex;justify-content: space-between;
+}
+.main .main_in .openbets_list .opb_h ul li div div.tms div {
+    margin-left: 5px;
+}
+.main .main_in .openbets_list .opb_h ul li div div.tms div span.tmsvs {
+    background-color: #e28305;padding: 1px 4px 1px 4px;border-radius: 4px;color: #ffffff;
+}
+.main .main_in .openbets_list .opb_h .opb_full_list {
+    margin: 10px 5px 10px 10px;text-align: left;width: 100%;
+}
+.main .main_in .openbets_list .opb_h .opb_full_list a {
+    font-size: 12px;font-family: "RussoOne Regular",sans-serif;color: #ffffff;
+    background-color: #e28305;padding: 2px 6px 2px 6px;border-radius: 4px;
+}
+.main::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 7px;
+}
+
+.main::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, .5);
+	box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+@media (max-width: 767px) {
+    .main .betwrap .betwrapin .league_wrap .fixt .fixt_tm {
+        margin: auto;background-color: #eceaeab1;padding: 2px 0;
+    }
+    .main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams {
+        display: flex;justify-content: center;padding: 0 6px;
+    }
+    .main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams .lg {
+        height: 30px !important;
+    }
+    .main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams div {
+        margin: 0 20px;font-size: 12px;line-height: 12px;
+    }
+    .main .betwrap .betwrapin .league_wrap .fixt .fixt_tm .teams div.vs {
+        font-size: 12px;font-weight: 900;background-color: #e2d7d7;border-radius: 8px;padding: 2px 8px;
+    }
+}

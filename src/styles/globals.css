@@ -1,0 +1,306 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text");
+@import url('https://fonts.googleapis.com/css?family=Roboto rel="stylesheet');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Paytone+One&family=Russo+One&display=swap');
+
+
+@font-face {
+  font-family: 'BungeeSpice Regular';
+  src: url('/fonts/BungeeSpice-Regular.ttf') format('truetype'),
+       url('/fonts/BungeeSpice-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BungeeSpice Regular';
+  src: url('/fonts/BungeeSpice-Regular.ttf') format('truetype'),
+       url('/fonts/BungeeSpice-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PaytoneOne Regular';
+  src: url('/fonts/PaytoneOne-Regular.ttf') format('truetype'),
+       url('/fonts/PaytoneOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RussoOne Regular';
+  src: url('/fonts/RussoOne-Regular.ttf') format('truetype'),
+       url('/fonts/RussoOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Marque';
+  src: url('/fonts/Marque.ttf') format('truetype'),
+       url('/fonts/Marque.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primaryFont: "RussoOne Regular","Marque";
+  --background-color-dark: rgba(5, 9, 11);
+  --background-color-light: rgba(5, 9, 11);
+  /* --background-color-light: #f1f1f1; */
+  --text-color-dark: #e2d7d7;
+  --text-color-light: #e2d7d7;
+  /* --text-color-light: #353535; */
+  --orange-color-dark: #e28305;
+  --orange-color-light: #925504;
+  --border-dark: 1px solid #f1f1f1;
+  --border-light: 1px solid #c7c5c57c;
+  /* --primaryFont: 'Montserrat', sans-serif; */
+  /* --primaryFont: 'Raleway', sans-serif; */
+}
+
+* {
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+/* .main .betwrap .betwrapin .league_wrap .league_wrap_in.display {
+  display: block;
+} */
+body {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;padding: 0;
+  font-family: "RussoOne Regular", 'Marque';
+  overflow-x: hidden;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #f1f1f1;
+  background: rgb(13,20,24);
+  background: linear-gradient(333deg, rgba(13,20,24,1) 0%, rgba(19,28,28,1) 0%, rgba(9,22,29,1) 0%, rgba(58,58,66,0.7049194677871149) 0%, rgba(57,57,62,0.9262079831932774) 0%, rgba(38,38,92,1) 0%, rgba(4,4,14,0.9626225490196079) 0%, rgba(0,0,0,1) 100%, rgba(18,27,43,1) 100%, rgba(19,28,28,1) 100%, rgba(13,20,24,1) 100%, rgba(5,4,36,1) 100%, rgba(13,20,24,1) 100%, rgba(9,9,121,0.8757878151260504) 100%, rgba(0,212,255,1) 100%);
+}
+.darktheme {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-light);
+  border: 1px solid
+}
+.lighttheme {
+  background-color: var(--background-color-light);
+  color: var(--text-color-dark);
+}
+body button {
+  background-color: transparent;border: none;background-color: none;cursor: pointer;
+}
+body li {
+  list-style: none;
+}
+body a {
+  text-decoration: none;color: #e2d7d7;
+}
+
+.MuiPaper-root,
+.MuiBackdropRoot {
+  background: rgba(33, 33, 33, 0.15) !important;
+  backdrop-filter: blur(20px) !important;
+} 
+/* scrollBar */
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+
+button:active,button:focus,select:active,select:focus,input:active,input:focus {
+  outline: none;
+}
+.react-calendar {
+  width: 250px;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #e7e7e1;border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.125em;
+  position: absolute;right: 0;
+  z-index: 9999;
+}
+
+.react-calendar--doubleView {
+  width: 600px;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer {
+  display: flex;
+  margin: -0.5em;
+}
+
+.react-calendar--doubleView .react-calendar__viewContainer > * {
+  width: 50%;
+  margin: 0.5em;
+}
+
+.react-calendar,
+.react-calendar *,
+.react-calendar *:before,
+.react-calendar *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.react-calendar button {
+  margin: 0;
+  border: 0;
+  outline: none;
+}
+
+.react-calendar button:enabled:hover {
+  cursor: pointer;
+}
+
+.react-calendar__navigation {
+  display: flex;
+  height: 24px;
+  margin-bottom: 1em;
+}
+
+.react-calendar__navigation button {
+  min-width: 24px;
+  background: none;
+}
+
+.react-calendar__navigation button:disabled {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0.5em;
+}
+
+.react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: inherit;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth,
+.react-calendar__decade-view__years__year--neighboringDecade,
+.react-calendar__century-view__decades__decade--neighboringCentury {
+  color: #757575;font-size: 14px !important;
+}
+
+.react-calendar__year-view .react-calendar__tile,
+.react-calendar__decade-view .react-calendar__tile,
+.react-calendar__century-view .react-calendar__tile {
+  padding: 2em 0.5em;
+}
+
+.react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background-color: none;
+  text-align: center;
+  line-height: 16px;
+  font: inherit;
+  font-size: 13px;
+}
+
+.react-calendar__tile:disabled {
+  background-color: #f0f0f0;
+  color: #ababab;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth:disabled,
+.react-calendar__decade-view__years__year--neighboringDecade:disabled,
+.react-calendar__century-view__decades__decade--neighboringCentury:disabled {
+  color: #cdcdcd;
+}
+
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+  background-color: #e6e6e6;
+}
+
+.react-calendar__tile--now {
+  background: #9aec9d;color: #757575;border-radius: 4px;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #3aa33d;
+}
+
+.react-calendar__tile--hasActive {
+  background: #76baff;
+}
+
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff;
+}
+
+.react-calendar__tile--active {
+  background: #e28305;border-radius: 4px;font-family: "Poppins";
+  color: white;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #e28305;border-radius: 4px;font-family: "Poppins";color: white;
+}
+
+.react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #e6e6e6;
+}
+
+
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+  body {
+    overflow-x: hidden;
+  }
+}

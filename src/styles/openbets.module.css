@@ -1,0 +1,364 @@
+.main {
+    width: 100%;padding: 2rem 5rem 5rem 5rem;margin: 5rem auto;text-align: center;
+    color: #151414;font-size: 14px;background-color: #fffcfc;position: relative;
+}
+.main .breadcrum {
+    width: 100%;margin: 15px 0;text-align: left;padding-left: 0;
+}
+.main .breadcrum a {
+    color: #151414;
+}
+.main .breadcrum button {
+    color: #151414;
+}
+.hiw_overlay {
+    position: fixed;background-color: #00000087;z-index: 9;top: 0;left: 0;right: 0;bottom: 0;display: none;
+}   
+.main .search {
+    width: 100%;margin: 10px auto 25px auto;position: relative;
+}
+.main .search form {
+    position: relative;width: 100%;
+}
+.main .search form input {
+    width: 100%;border: 1px solid #e2d7d7;border-radius: 4px;height: 32px;position: relative;padding-left: 4px;
+    font-family: "RussoOne Regular";font-size: 14px;
+}
+.main .search form .searchicon {
+    position: absolute;right: 4px;top: 6px;cursor: pointer;color: #0000005d;
+}
+.main .search form .searchop {
+    width: 100%;text-align: left;color: #565454;border: 1px solid #a19d9d87;
+    margin: 2px 0;font-size: 13px;padding: 2px 2px 2px 2px;border-radius: 4px;position: absolute;
+    background-color: #ffffff;height: inherit;z-index: 999;
+}
+.main .search form .searchop div {
+    border-bottom: 1px solid #e2d7d7;margin: 4px 0 2px 0;border-radius: 4px;margin: 5px 0;
+}
+.main .search form .searchop div .ft1 {
+    border-radius: 4px solid #ffffff;border: 1px solid #e2d7d7;padding: 0 2px 0 2px;background-color: #ffffff;
+    cursor: pointer;
+}
+.main .search form .searchop div .ft2 {
+    background-color: #a19d9d87;margin-right: 5px;padding: 0 2px 0 2px;cursor: pointer;
+}
+.main .search form .searchop div .sc1 {
+    border-radius: 4px solid #ffffff;border: 1px solid #e2d7d7;padding: 0 2px 0 2px;background-color: #ffffff;
+    cursor: pointer;
+}
+.main .search form .searchop div .sc2 {
+    background-color: #a19d9d87;margin-right: 5px;padding: 0 2px 0 2px;cursor: pointer;
+}
+.main .search form .searchop div .th1 {
+    border-radius: 4px solid #ffffff;border: 1px solid #e2d7d7;padding: 0 2px 0 2px;background-color: #ffffff;
+    cursor: pointer;
+}
+.main .search form .searchop div .th2 {
+    background-color: #a19d9d87;margin-right: 5px;padding: 0 2px 0 2px;cursor: pointer;
+}
+.main .showlogincomp {
+    margin: 6px auto;position: relative;text-align: center;
+}
+.main .showlogincomp .showlogincompin {
+    position: absolute;background-color: #000000ea;left: 50%;transform: translate(-50%,50%);
+    padding: 50px 50px 50px 50px;top: 50px;border-radius: 4px;z-index: 9999;
+}
+.main .showlogincomp .showlogincompin .closebtn button {
+    position: absolute;right: 4px;top: 4px;color: #fffcfc;cursor: pointer;background-color: none;
+}
+.main .showlogincomp .showlogincompin h3 {
+    color: #fffcfc;margin: 0 auto 15px auto;
+}
+.main .showlogincomp .showlogincompin .logbtn button {
+    background-color: #e28305;width: fit-content;padding: 4px 24px;margin-right: 5px;
+    border-radius: 4px;color: #fffcfc;
+}
+.main .betcondtns {
+    position: relative;
+}
+.main .betcondtns .betcondtns_m {
+    position: absolute;background-color: #000000ea;left: 0;right: 0;top: -150px;margin: auto;width: fit-content;
+    padding: 20px 20px 20px 20px;top: 0;border-radius: 4px;z-index: 9999;color: #f1f1f1;text-align: left;
+}
+.main .betcondtns .betcondtns_x {
+    position: absolute;right: 4px;top: 4px;color: #fffcfc;cursor: pointer;background-color: none;
+}
+.main .betcondtns .betcondtns_m h3 {
+    margin: 15px auto;font-weight: 600;font-family: "RussoOne Regular";color: #e28305;font-size: 14px;
+}
+.main .betcondtns .betcondtns_m .betprd {
+    display: flex;flex-direction: row;text-align: left;
+}
+.main .betcondtns .betcondtns_m .betprd div {
+    margin: 4px 15px 4px 0;
+}
+.main .betcondtns .betcondtns_m .betprd div h3 {
+    margin: 0 auto;font-weight: 500;
+}
+.main .hiwmain {
+    position: absolute;margin: 5rem auto;text-align: center;z-index: 10;left: 0;right: 0;
+    bottom: 0;top: 0;display: none;
+}
+.main .hiwmain .hiw_c {
+    position: relative;z-index: 999;background-color: #050505d1;width: fit-content;
+    border-radius: 4px;padding: 12px 12px 12px 12px;margin-top: 150px;margin: auto;text-align: center;
+}
+.main .hiwmain .hiw_c .hiw_x {
+    position: absolute;right: 8px;top: 2px;color: #9b9a9a;cursor: pointer;
+}
+.main .hiwmain .hiw_c ul li {
+    text-align: left;
+    margin: 5px 0 5px 0;
+    padding: 4px 4px 4px 4px;
+    color: #ffffff;font-family: "PT Sans",sans-serif;font-size: 14px;
+}
+.main .hiwmain .hiw_c ul li a {
+    color: #e28305;font-weight: 900;font-family: "RussoOne Regular",sans-serif;
+}
+.main .filter_c {
+    width: 100%;display: flex;flex-direction: row;flex-wrap: nowrap;visibility: hidden;
+    justify-content: space-between;padding: 5px 10px 5px 10px;
+}
+.main .filter_c button {
+    font-size: 14px;
+}
+.main .main_in {
+    display: flex;flex-direction: row;justify-content: space-between;
+}
+.main .main_in .opb_h {
+    width: 20%;background-color: #f1f1f1;
+}
+.main .main_in .opb_h .filterclose {
+    position: absolute;right: 5px;top: 5px;
+}
+.main .main_in .opb_h .opb_login h3 {
+    background-color: #929292;color: #151414;padding: 10px;font-weight: 600;font-size: 13px;
+}
+.main .main_in .opb_h .opb_login .opblogin_btns {
+    display: flex;justify-content: space-between;flex-direction: row;padding: 4px 8px;
+}
+.main .main_in .opb_h .opb_login .opblogin_btns div {
+    margin: 5px 0;
+}
+.main .main_in .opb_h .opb_login .opblogin_btns button {
+    background-color: #ffffff;padding: 1px 8px;border-radius: 2px;font-weight: 600;
+    color: #151414;font-family: "PT Sans";
+}
+.main .main_in .opb_h .opb_login .opblogin_btns a {
+    background-color: transparent;padding: 4px 8px;border-radius: 2px;font-weight: 600;
+    color: #151414;font-family: "PT Sans";border: 2px solid #ffffff;
+}
+.main .main_in .opb_h .filter {
+    width: 100%;text-align: left;
+}
+.main .main_in .opb_h .filter h3 {
+    margin: 5px auto 10px auto;background-color: #a19d9d87;text-align: center;
+}
+.main .main_in .opb_h .filter div{
+    font-size: 14px;margin: 4px 2px;
+}
+.main .main_in .opb_h .filter > div > div {
+    font-size: 14px;margin: 4px 2px;border-bottom: 2px solid #a19d9d87;
+}
+.main .main_in .opb_h .filter > div > div button {
+    font-size: 13px;border: 1px solid #a19d9d87;border-radius: 8px;padding: 0 4px 0 4px;
+    background-color: #ffffff;margin-bottom: 2px;
+}
+.main .main_in .opb_h .filter > div > div.amountprog > div {
+    font-size: 13px;
+}
+.main .main_in .opb_h .filter > div > div.amountprog .fba {
+    font-size: 12px;background-color: #ffffff;width: fit-content;padding: 2px 4px;
+    border: 1px solid #a19d9d87;border-radius: 4px;
+}
+.main .main_in .opb_h .filter > div > div.amountprog .fba span {
+    font-size: 11px;color: #e28305;
+}
+.main .main_in .opb_h .filter > div > div.amountprog input {
+    color: #000000ea;background-color: #0000005d;
+}
+.main .openbetmain {
+    background-color: #f1f1f1;width: 78%;height: fit-content;
+}
+.main .openbetmain .table_c {
+    width: 100%;overflow-x: auto;
+}
+.main .openbetmain table {
+    width: 100%;margin: 0 auto 10px auto;background-color: #ffffff;padding: 5px 5px 5px 5px;
+    font-size: 14px;
+}
+.main .openbetmain table tbody {
+    width: 100%;
+}
+.main .openbetmain table tbody tr {
+    width: 100%;
+}
+.main .openbetmain table thead tr th {
+    margin: 15px auto 15px auto;background-color: #a19d9d87;color: #151414;padding: 10px;
+    font-weight: 600;font-size: 13px;
+}
+.main .openbetmain table tbody tr td .div {
+    margin-top: 2px;margin-bottom: 2px;padding: 3px;background-color: #f5f4f4;text-align: left;
+    text-transform: capitalize;white-space: nowrap;line-break: initial;
+}
+.main .openbetmain table tbody tr td .divaddress {
+    margin-top: 2px;margin-bottom: 2px;padding: 3px;background-color: #f5f4f4;text-align: left;
+    text-transform: capitalize;position: relative;
+}
+.main .openbetmain table tbody tr td .divaddress button {
+    font-size: 11px;text-align: right;background-color: #ffffff;padding: 0 4px;
+    border-radius: 8px;border: 1px solid #0000005d;
+}
+.main .openbetmain table tbody tr td .divaddress .fulladdr {
+    position: absolute;background-color: #ffffff;left: 0;top: 0;padding: 0 3px;
+    border-radius: 4px;border: 1px solid #c6c4c4;display: none;
+}
+.main .openbetmain table tbody tr td .bdet button {
+    margin-top: 2px;margin-bottom: 2px;padding: 2px 6px 2px 6px;background-color: #ffffff;text-align: center;
+    margin: auto;border-radius: 20px;border: 2px solid #c5bdbd;color: #151515;font-size: 12px;width: fit-content;
+}
+.main .openbetmain table tbody tr td div .amtunit {
+    font-size: 12px;margin-left: 0;color: #000000b4;
+}
+.main .openbetmain table tbody tr td .betstatusopened {
+    padding: 2px 6px;border-radius: 120px;color: #e28305;text-align: center;
+}
+.main .openbetmain table tbody tr td .betstatusclosed {
+    background-color: #f64141;padding: 2px 6px;border-radius: 120px;color: #ffffff;text-align: center;
+}
+.main .openbetmain .pbet {
+    position: absolute;z-index: 999;background-color: #000000de;padding: 10px 24px 10px 24px;
+    border-radius: 4px;left: 0;right: 0;width: fit-content;margin: auto;top: 10px;display: none;
+    left: 0;right: 0;color: #ffffff;margin: auto;
+}
+.main .openbetmain .pbet .pbet_x {
+    color: #ffffff;position: absolute;right: 8px;top: 4px;cursor: pointer;
+}
+.main .openbetmain .pbet h3 {
+    color: #ffffff;margin: 5px 5px;
+} 
+.main .openbetmain .pbet p .obet {
+    color: #e28305;font-weight: 600;
+}
+.main .openbetmain .pbet .form_g {
+    text-align: left;margin: 10px 0 15px 0;
+}
+.main .openbetmain .pbet .form_g ul li {
+    margin: 5px 0;width: 100%;text-align: left;color: #ffffff;font-size: 14px;
+    font-family: "RussoOne Regular";
+}
+.main .openbetmain .pbet .form_g ul li div {
+    display: flex;flex-direction: row;justify-content: space-between;margin: 5px 0;
+}
+.main .openbetmain .pbet .form_g input {
+    width: 100%;font-size: 14px;color: #f1f1f1;font-family: "RussoOne Regular",sans-serif;height: 30px;margin-top: 5px;
+    border-radius: 4px;padding-left: 4px;font-weight: 600;background-color: #3332328c;border: 1px solid #4f48484d;
+}
+.main .openbetmain .pbet .form_g p {
+    color: #f1f1f1;font-size: 14px;
+}
+.main .openbetmain .pbet .form_g label {
+    font-size: 13px;margin-bottom: 5px;
+}
+.main .openbetmain .pbet .form_g small {
+    color: rgb(250, 68, 68);font-size: 12px;font-family: "RussoOne Regular";font-weight: 600;
+}
+.main .openbetmain .pbet .form_g select {
+    width: 100%;font-size: 14px;color: #f1f1f1;font-family: "RussoOne Regular",sans-serif;height: 30px;
+    border-radius: 4px;font-weight: 500;background-color: #3332328c;border: 1px solid #4f48484d;
+    margin-top: 5px;
+}
+.main .openbetmain .pbet .form_g ul li div .betdet {
+    text-transform: capitalize;color: #e28305;font-weight: 600;margin-top: 20px;
+}
+.main .openbetmain .pbet .form_g .betp {
+    text-align: left;font-size: 14px;color: #f1f1f1;
+}
+.main .openbetmain .pbet .form_g .betpp {
+    text-align: left;font-size: 14px;margin-top: 5px;color: #e28305;
+}
+.main .openbetmain .pbet .error_alert {
+    color: #f51919;font-size: 12px;font-weight: 600;margin: 5px 0 5px 0;
+}
+.main .openbetmain .pbet .form_btn {
+    display: flex;flex-direction: row;margin: 15px auto;justify-content: space-evenly;
+}
+.main .openbetmain .pbet .form_btn .sub_btn {
+    background-color: #e28305;border-radius: 60px;color: #151414;padding: 2px 26px;font-weight: 900;
+}
+.main .openbetmain .pbet .form_btn .cancel_btn {
+    background-color: #e20505;border-radius: 60px;color: #ffffff;padding: 2px 26px;font-weight: 900;
+}
+.main .openbetmain table .jb button {
+    background-color: #3aa33d;padding: 3px 8px;border-radius: 4px;color: #ffffff;border-radius: 60px;
+    outline: none;width: max-content;
+}
+.main .openbetmain table .jb .open {
+    background-color: #3aa33d;
+}
+.main .openbetmain table .jb .closed {
+    background-color: #07060679;
+}
+
+.main .openbetmain .paginate_btns {
+    margin: 15px 0;padding: 15px 15px 15px 15px;width: 100%;
+}
+.main .openbetmain .paginate_btns button {
+    margin: 4px 8px 4px 8px;background-color: none;padding: 2px 8px 2px 8px;border-radius: 4px;
+    border: 1px solid #929292;font-size: 14px;
+    font-weight: 600;
+}
+.main .openbetmain .paginate_btns button.number {
+    margin: 4px 2px 4px 2px;border-radius: 50%;font-weight: 500;font-size: 13px;padding: 2px 8px;
+}
+.main .openbetmain button:focus,.main .openbetmain button:active {
+    outline: none;
+}
+.main::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 7px;
+}
+
+.main::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background-color: rgba(0, 0, 0, .5);
+	box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+@media (max-width: 1200px) {
+    .main {
+        width: 100%;padding: 2rem 2rem 5rem 2rem;margin: 2rem auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .main {
+        width: 100%;padding: 2rem 10px 5rem 10px;margin: 2rem auto;
+    }
+    .main .filter_c {
+        visibility: visible;
+        justify-content: space-between;padding: 5px 10px 5px 10px;
+    }
+    .main .filter_c button {
+        font-size: 14px;
+    }
+    .main .main_in {
+        display: block;justify-content: unset;
+    }
+    .main .main_in .opb_h {
+        width: 100%;position: fixed;left: 0;right: 0;display: none;top: 0;bottom: 0;z-index: 99;height: 100%;
+    }
+    .main .openbetmain {
+        width: 100%;
+    }
+    .main .openbetmain table tbody tr td .divaddress .fulladdr {
+        top: -15px;
+        
+    }
+}
+
+@media (max-width: 767px) {
+    .main .openbetmain .pbet {
+        width: 100%;
+    }
+}

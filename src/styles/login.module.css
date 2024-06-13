@@ -1,0 +1,78 @@
+.lighttheme {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    /* border: var(--border-dark); */
+}
+.darktheme {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+    /* border: var(--border-dark) */
+}
+.main {
+    width: 100%;
+}
+.back {
+    padding: 5px 10px;font-size: 14px;font-family: "RussoOne Regular", sans-serif;
+}
+.qrcode {
+    width: 10rem;height: 20rem;margin: 1rem auto; text-align: center;
+}
+.forminput {
+    border-radius: 12px;width: 100% !important;height: 40px;padding: .2rem .8rem;
+    border: none;margin-top: 10px;color: #000000;
+}
+.formlabel {
+    margin-top: 1rem;padding: .6rem 0;font-family: "RussoOne Regular";font-size: 14px;
+}
+.formTag {
+    background-color: transparent;border-radius: 8px;padding: 1rem;margin: auto;height: 100vh;padding-top: 5rem;
+    width: 60vw;
+}
+.formTag .fhead {
+    margin: 1rem auto;
+}
+.formTag .fhead h3 {
+    font-family: "RussoOne Regular", sans-serif;margin: 1rem auto;font-weight: 600;
+    text-align: center;font-size: 18px;
+}
+.formpTag {
+    font-size: 12px;font-family: "RussoOne Regular";font-style: italic;
+}
+.form_group {
+    margin: 35px 0;
+}
+.labelDiv {
+    width: 100%;
+}
+.btns {
+    display: flex;justify-content: space-evenly;flex-direction: row;flex-wrap: nowrap;margin: 3rem auto 2rem auto;
+}
+.btns .alink {
+    padding-top: .4rem;font-size: 14px;
+}
+.fpass {
+    width: 100%;margin-right: 0;text-align: right;margin-top: 1rem;
+}
+.fpass a {
+    font-family: "RussoOne Regular",sans-serif;font-weight: 600;margin-top: 10px;text-align: right;
+}
+.btns a {
+    font-family: "RussoOne Regular", sans-serif;font-size: 14px;color: #e3a204;font-weight: 600;
+}
+.btns .registerButton {
+    border-radius: 120px;background-color: #e3a204;font-size: 16px;font-weight: 600;
+    padding: .4rem 60px;border: none;color: #1c1f2b;font-family: "RussoOne Regular",sans-serif;
+}
+.passhideshowButton {
+    text-align: right;float: right;margin-top: .6rem;margin-right: .5rem;
+    border: none;color: #e2d7d7;
+}
+@media (max-width: 991px) {
+    .formTag {
+        height: 100vh;padding-top: 5rem;
+        width: 95vw;
+    }   
+    .btns .registerButton {
+        padding: .4rem 20px;
+    }
+}

@@ -1,0 +1,15 @@
+.showactioncomp {
+    position: fixed;width: 250px;z-index: 99999;left: 0;right: 0;top: 20%;
+    position: fixed;background-color: #000000ea;padding: 50px 50px 50px 50px;
+    border-radius: 4px;width: 250px;margin: auto;
+}
+.showactioncomp .showactioncompin .closebtn button {
+    position: absolute;right: 4px;top: 4px;color: #fffcfc;cursor: pointer;background-color: none;
+}
+.showactioncomp .showactioncompin h3 {
+    color: #fffcfc;margin: 0 auto 15px auto;
+}
+.showactioncomp .showactioncompin .logbtn button {
+    background-color: #e28305;width: fit-content;padding: 4px 24px;margin-right: 5px;
+    border-radius: 4px;color: #fffcfc;
+}

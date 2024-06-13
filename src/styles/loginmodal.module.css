@@ -1,0 +1,89 @@
+.lighttheme {
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    /* border: var(--border-dark); */
+}
+.darktheme {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+    /* border: var(--border-dark) */
+}
+.main {
+    width: 100%;
+}
+.loginmodalmain {
+    padding: 5px 10px;font-size: 14px;font-family: "RussoOne Regular", sans-serif;
+    position: relative;margin-top: 0;
+}
+.loginmodalmain .loginmodalmainin {
+    position: absolute;left: 50%;transform: translate(-50%,50%);
+    padding: 2px 2px 2px 2px;top: -300px;border-radius: 4px;z-index: 9999;width: 50%;
+    height: 70vh;margin: auto;background-color: #000000fc;
+}
+.loginmodalmain .closebtn button {
+    position: absolute;right: 8px;top: 4px;cursor: pointer;background-color: none;z-index: 99999;
+    color: #e2d7d7;
+}
+.qrcode {
+    width: 10rem;height: 20rem;margin: 1rem auto; text-align: center;
+}
+.loginmodalmain .loginmodalmainin .formTag {
+    background-color: transparent;border-radius: 8px;padding: 1rem;margin: auto;height: inherit;padding-top: 2rem;
+}
+.loginmodalmain .loginmodalmainin .formTag .fhead {
+    margin: 0 auto;
+}
+.loginmodalmain .loginmodalmainin .formTag .fhead h3 {
+    font-family: "RussoOne Regular", sans-serif;margin: 0 auto;font-weight: 600;
+    text-align: center;font-size: 14px;color: #e2d7d7;
+}
+.loginmodalmain .loginmodalmainin .formpTag {
+    font-size: 12px;font-family: "RussoOne Regular";font-style: italic;
+}
+.loginmodalmain .loginmodalmainin .form_group {
+    margin: 35px 0;width: 100%;display: block;text-align: left;
+}
+.loginmodalmain .loginmodalmainin .form_group .formlabel {
+    color: #e3a204;margin-top: 1rem;padding: .6rem 0;font-family: "RussoOne Regular";font-size: 14px;
+    text-align: left;margin-left: 0 !important;
+}
+.loginmodalmain .loginmodalmainin .form_group .forminput {
+    border-radius: 12px;width: 100% !important;height: 32px;padding: .2rem .8rem;
+    border: none;margin-top: 10px;color: #000000;
+}
+.loginmodalmain .loginmodalmainin .labelDiv {
+    width: 100%;text-align: left;
+}
+.loginmodalmain .loginmodalmainin .btns {
+    display: flex;justify-content: space-evenly;flex-direction: row;flex-wrap: nowrap;margin: 3rem auto 2rem auto;
+}
+.loginmodalmain .loginmodalmainin .btns .alink {
+    color: #e2d7d7;padding-top: .4rem;font-size: 14px;
+}
+.loginmodalmain .loginmodalmainin .fpass {
+    width: 100%;margin-right: 0;text-align: right;margin-top: 1rem;
+}
+.loginmodalmain .loginmodalmainin .fpass a {
+    color: #e2d7d7;font-family: "RussoOne Regular",sans-serif;font-weight: 500;margin-top: 10px;text-align: right;
+    text-decoration: underline;
+}
+.loginmodalmain .loginmodalmainin .btns a {
+    font-family: "RussoOne Regular", sans-serif;font-size: 14px;color: #e3a204;font-weight: 600;
+}
+.loginmodalmain .loginmodalmainin .btns .registerButton {
+    border-radius: 120px;background-color: #e3a204;font-size: 16px;font-weight: 600;
+    padding: .2rem 30px;border: none;color: #1c1f2b;font-family: "RussoOne Regular",sans-serif;
+}
+.loginmodalmain .loginmodalmainin .passhideshowButton {
+    text-align: right;float: right;margin-top: .6rem;margin-right: .5rem;
+    border: none;color: #e2d7d7;
+}
+@media (max-width: 991px) {
+    .loginmodalmain .loginmodalmainin .formTag {
+        height: 100vh;padding-top: 5rem;
+        width: 95vw;
+    }   
+    .loginmodalmain .loginmodalmainin .btns .registerButton {
+        padding: .4rem 20px;
+    }
+}
